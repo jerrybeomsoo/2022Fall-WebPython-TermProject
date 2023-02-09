@@ -1,9 +1,9 @@
 # 2022 Fall Semester Kyung Hee University SWCON Web/Python Programming Term Project
 WAV audio file header processing / sample interpolation
 
-**main.py** is the original code written/submitted for the "Term Project".
+**main.py** is the original code written/submitted for the "Term Project". Currently, it only supports 8bit / 16kHz / mono audio, due to hardcoded values. Will fix.
 
-**splineInterpolator.py** is the modified version of the former, to support 24bit / stereo audio, and to be used for upsampling.
+**splineInterpolator.py** is the modified version of the **main.py**, to support 24bit / stereo audio, and to be used for upsampling.
 
 ## main.py
 1. Randomly fetches an WAV audio file (PCM 8bit / 16000Hz / Mono) from MS-SNSD github repo
